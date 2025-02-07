@@ -1,0 +1,6 @@
+const config = {
+    // baseURL: 'http://localhost:5050/',
+    baseURL: 'http://www.retailtarget.lk:8010/'
+};
+
+export default config;

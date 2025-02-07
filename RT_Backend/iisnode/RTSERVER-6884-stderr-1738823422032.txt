@@ -1,0 +1,80 @@
+(node:6884) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error retrieving dashboard data: RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at Request._template (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:94:26)
+    at Object.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\global-connection.js:148:38)
+    at exports.dashboardOptions (D:\src\Web\RT_Backend\controllers\authController.js:225:53)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13) {
+  code: 'ENOCONN'
+}
+Error retrieving dashboard data: RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at Request._template (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:94:26)
+    at Object.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\global-connection.js:148:38)
+    at exports.dashboardOptions (D:\src\Web\RT_Backend\controllers\authController.js:225:53)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13) {
+  code: 'ENOCONN'
+}
+Login error: RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at exports.login (D:\src\Web\RT_Backend\controllers\authController.js:38:48)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5) {
+  code: 'ENOCONN'
+}
+Login error: RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at exports.login (D:\src\Web\RT_Backend\controllers\authController.js:38:48)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5) {
+  code: 'ENOCONN'
+}
+Login error: RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at exports.login (D:\src\Web\RT_Backend\controllers\authController.js:38:48)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5) {
+  code: 'ENOCONN'
+}
+Login error: RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at exports.login (D:\src\Web\RT_Backend\controllers\authController.js:38:48)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5) {
+  code: 'ENOCONN'
+}

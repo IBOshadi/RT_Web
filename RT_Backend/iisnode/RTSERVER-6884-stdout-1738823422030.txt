@@ -1,0 +1,3 @@
+Connected to the MSSQL database
+Server running
+Successfully connected to the dynamic database

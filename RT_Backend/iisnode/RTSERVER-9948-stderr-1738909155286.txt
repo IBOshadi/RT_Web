@@ -1,0 +1,63 @@
+(node:9948) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at Request._template (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:94:26)
+    at Object.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\global-connection.js:148:38)
+    at exports.forgotPassword (D:\src\Web\RT_Backend\controllers\authController.js:174:24)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13) {
+  code: 'ENOCONN'
+}
+Login error: ConnectionError: Failed to connect to 1234:145 - Could not connect (sequence)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\connection-pool.js:85:17
+    at Connection.onConnect (D:\src\Web\RT_Backend\node_modules\tedious\lib\connection.js:849:9)
+    at Object.onceWrapper (node:events:639:26)
+    at Connection.emit (node:events:524:28)
+    at Connection.emit (D:\src\Web\RT_Backend\node_modules\tedious\lib\connection.js:970:18)
+    at Connection.socketError (D:\src\Web\RT_Backend\node_modules\tedious\lib\connection.js:1353:12)
+    at D:\src\Web\RT_Backend\node_modules\tedious\lib\connection.js:1146:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  code: 'ESOCKET',
+  originalError: ConnectionError: Failed to connect to 1234:145 - Could not connect (sequence)
+      at Connection.socketError (D:\src\Web\RT_Backend\node_modules\tedious\lib\connection.js:1353:28)
+      at D:\src\Web\RT_Backend\node_modules\tedious\lib\connection.js:1146:14
+      at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+    code: 'ESOCKET',
+    [cause]: AggregateError: Could not connect (sequence)
+        at connectInSequence (D:\src\Web\RT_Backend\node_modules\tedious\lib\connector.js:114:9)
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async D:\src\Web\RT_Backend\node_modules\tedious\lib\connection.js:1129:20 {
+      [errors]: [Array]
+    }
+  }
+}
+Error during registration: RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at exports.register (D:\src\Web\RT_Backend\controllers\authController.js:132:47)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5) {
+  code: 'ENOCONN'
+}
+Application has thrown an uncaught exception and is terminated:
+RequestError: No connection is specified for that request.
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:493:37)
+    at Request._query (D:\src\Web\RT_Backend\node_modules\mssql\lib\tedious\request.js:363:11)
+    at D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:460:12)
+    at Request._template (D:\src\Web\RT_Backend\node_modules\mssql\lib\base\request.js:94:26)
+    at Object.query (D:\src\Web\RT_Backend\node_modules\mssql\lib\global-connection.js:148:38)
+    at exports.dashboardOptions (D:\src\Web\RT_Backend\controllers\authController.js:241:43)
+    at Layer.handle [as handle_request] (D:\src\Web\RT_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\src\Web\RT_Backend\node_modules\express\lib\router\route.js:149:13)

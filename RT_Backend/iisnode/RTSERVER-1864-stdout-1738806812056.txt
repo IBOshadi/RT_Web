@@ -1,0 +1,27 @@
+Connected to the MSSQL database
+Server running
+request body {
+  username: 'chani',
+  email: 'sadin.chanisa8@gmail.com',
+  password: 'Admin@123'
+}
+request body {
+  username: 'usertest',
+  email: 'test@yopmail.com',
+  password: 'Admin@123'
+}
+request body {
+  username: 'usertest1',
+  email: 'test@yopmail.com',
+  password: 'Admin@123'
+}
+request body {
+  username: 'AdminUser',
+  email: 'test@yopmail.com',
+  password: 'Admin@123'
+}
+request body {
+  username: 'AdminUser',
+  email: 'testing@yopmail.com',
+  password: 'Admin@1234'
+}
